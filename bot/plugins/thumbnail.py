@@ -1,5 +1,3 @@
-# (c) @AbirHasan2005
-
 from bot.client import Client
 from pyrogram import filters
 from pyrogram import types
@@ -45,4 +43,4 @@ async def delete_thumbnail(c: Client, m: "types.Message"):
     await add_user_to_database(c, m)
     await db.set_thumbnail(m.from_user.id, None)
     await m.reply_text("Okay,\n"
-                       "I deleted custom thumbnail from my database.")
+                       "I deleted custom thumbnail from.")
