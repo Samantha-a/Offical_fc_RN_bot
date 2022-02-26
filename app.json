@@ -1,5 +1,5 @@
 {
-    "name": "Telegram Files Rename Bot",
+    "name": "FC Files Rename Bot",
     "description": "A Very Simple Telegram Files Rename Bot by @AbirHasan2005",
     "keywords": [
         "telegram",
@@ -7,8 +7,8 @@
         "rename",
         "bot"
     ],
-    "repository": "https://github.com/AbirHasan2005/Rename-Bot",
-    "website": "https://abirhasan.wtf",
+    "repository": "https://github.com/Samantha-a/Offical_fc_RN_bot",
+    "website": "https://github.com/Samantha-a/Offical_fc_RN_bot",
     "success_url": "https://t.me/AH_RenameBot",
     "env": {
         "API_ID": {
