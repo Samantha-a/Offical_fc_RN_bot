@@ -1,1 +1,0 @@
-# (c) @AbirHasan2005
