@@ -17,11 +17,11 @@ async def show_settings(m: "types.Message"):
     apply_caption = user_data.get("apply_caption", True)
     thumbnail = user_data.get("thumbnail", None)
     buttons_markup = [
-        [types.InlineKeyboardButton(f"Upload as Doc {'✅' if upload_as_doc else '❌'}",
+        [types.InlineKeyboardButton(f"Upload as Doc {'📌' if upload_as_doc else '❌'}",
                                     callback_data="triggerUploadMode")],
-        [types.InlineKeyboardButton(f"Apply Caption {'✅' if apply_caption else '❌'}",
+        [types.InlineKeyboardButton(f"Apply Caption {'📌' if apply_caption else '❌'}",
                                     callback_data="triggerApplyCaption")],
-        [types.InlineKeyboardButton(f"Apply Default Caption {'❌' if caption else '✅'}",
+        [types.InlineKeyboardButton(f"Apply Default Caption {'❌' if caption else '📌'}",
                                     callback_data="triggerApplyDefaultCaption")],
         [types.InlineKeyboardButton("Set Custom Caption",
                                     callback_data="setCustomCaption")],
