@@ -13,7 +13,8 @@ async def ping_handler(c: Client, m: "types.Message"):
     await add_user_to_database(c, m)
     await c.send_flooded_message(
         chat_id=m.chat.id,
-        text="Hi, I am FC Rename Bot!\n\n"
+        text=""""𝙷𝙴𝙻𝙾 {},
+𝙼𝚢 𝚗𝚊𝚖𝚎 , <a href='https://t.me/Samanth_abot'>FC Rename Bot</a>"
              "I can rename media without downloading it!\n"
              "Speed depends on your media DC.\n\n"
              "Just send me media and reply to it with /rename command.",
